@@ -31,3 +31,15 @@ filter: drop-shadow(1px 1px 15px white);
     padding: 30px;
     font-size: 10rem;
 }
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.about{
+    padding: 50px;
+    background-color: aliceblue;
+    width: 450px;
+    border-radius: 10px;
+}

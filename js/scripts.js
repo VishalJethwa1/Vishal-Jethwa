@@ -62,11 +62,9 @@ document.getElementById("title").addEventListener("mouseover", titleHover, false
 document.getElementById("title").addEventListener("mouseout", delTitleHover, false)
 
 function titleHover(){
-    document.getElementById("window").style.boxShadow = "10px 10px 150px grey inset";
-    document.getElementById("title").style.filter = "blur(5px)";
+    document.getElementById("title").style.textShadow = ("1px 1px 15px yellow")
 }
 
 function delTitleHover(){
-    document.getElementById("window").style.boxShadow = ""; 
-    document.getElementById("title").style.filter = "blur()";
+  document.getElementById("title").style.textShadow = ("")
 }
