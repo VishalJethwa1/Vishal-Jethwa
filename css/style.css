@@ -51,13 +51,9 @@ filter: drop-shadow(1px 1px 15px white);
 }
 .nameplate{
     background-color: darkslategray;
-    width: 450px;
-    padding: 12px;
-    /*margin: 10px 0px;*/
-}
-.skill{
-    background-color: darkslategray;
-    width: 450px;
-    padding: 12px;
-    /*margin: 10px 0px;*/
+    color: bisque;
+    width: fit-content;
+    padding: 5px 45px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 15px;
 }
